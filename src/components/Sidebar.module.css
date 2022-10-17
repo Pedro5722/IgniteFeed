@@ -1,0 +1,69 @@
+.sidebar{
+  background-color: var(--gray-800);
+  border-radius: 8px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.cover{
+  width: 100%;
+  height: 4.5rem;
+  object-fit: cover;
+
+}
+
+.avatar{
+  width: 3.75rem;
+  height: 3.75rem;
+  margin-top: calc(-1 * (3.5rem /2));
+
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--green-100);
+  border-radius: 8px;
+}
+
+.name{
+  margin-top: 1rem;
+  line-height: 1.6rem;
+  font-size: 1rem;
+}
+
+.role{
+  line-height: 1.375rem;
+  font-size: 0.875rem;
+}
+
+.profileEdit{
+  width: 100%;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--gray-600);
+
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 2rem 2rem 2rem;
+}
+
+.button{
+  text-decoration: none;
+  color: var(--green-100);
+  border: 1px solid var(--green-100);
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+}
+
+.button:hover{
+  background-color: var(--green-100);
+  color: var(--white);
+  transition: 0.2s;
+}

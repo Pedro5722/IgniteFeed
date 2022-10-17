@@ -1,0 +1,82 @@
+.post{
+  background-color: var(--gray-800);
+  margin-bottom: 2rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 8px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.authorAvatar{
+  width: 3.75rem;
+  height: 3.75rem;
+
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--green-100);
+  border-radius: 8px;
+}
+
+.nameAndRoleContainer{
+  justify-content: center;
+  line-height: 16px;
+  margin-left: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+.role{
+  font-size: 0.875rem;
+}
+
+.publishedAt{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  
+  margin-left: auto;
+  font-size: 0.875rem;
+}
+
+.content{
+  margin-top: 1.5rem;
+  white-space: pre-wrap;
+}
+
+
+.feedbackContainer{
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-600);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback{
+  background-color: var(--gray-900);
+  color: var(--gray-300);
+  border-radius: 8px;
+  min-height: 6rem;
+  padding: 1rem;
+
+
+  margin: 1rem 0 1rem 0;
+}
+.feedback:focus{
+  border: 1px solid var(--green-100);
+
+}
+
+.publishButton{
+
+}
