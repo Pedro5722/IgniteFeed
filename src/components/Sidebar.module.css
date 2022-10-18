@@ -55,6 +55,7 @@
   padding: 1rem;
   border-radius: 8px;
   font-weight: bold;
+  outline: none;
 
   display: flex;
   align-items: center;

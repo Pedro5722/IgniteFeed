@@ -1,7 +1,7 @@
 .post{
   background-color: var(--gray-800);
   margin-bottom: 2rem;
-  padding: 1.5rem 2.5rem;
+  padding: 2.5rem;
   border-radius: 8px;
 }
 
@@ -26,7 +26,8 @@
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+
 }
 
 .author{
@@ -52,6 +53,11 @@
   white-space: pre-wrap;
 }
 
+.content a{
+  text-decoration: none;
+  color: var(--green-100);
+  font-weight: bold;
+}
 
 .feedbackContainer{
   margin-top: 1.5rem;
@@ -68,15 +74,26 @@
   border-radius: 8px;
   min-height: 6rem;
   padding: 1rem;
-
-
+  resize: none;
   margin: 1rem 0 1rem 0;
 }
 .feedback:focus{
+  outline: none;
   border: 1px solid var(--green-100);
-
 }
 
 .publishButton{
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 1rem 1.5rem 0.875rem 1.5rem;
+  background-color: var(--green-500);
+  cursor: pointer;
+}
 
+.publishButton:hover{
+  background-color: var(--green-100);
+  transition: 0.3s;
 }

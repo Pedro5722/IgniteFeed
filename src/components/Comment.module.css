@@ -1,0 +1,76 @@
+.comment{
+  display:flex;  
+  flex-direction: row ;
+  
+  margin-top: 2rem;
+}
+
+.commentBox{
+  background-color: var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.userAndPostTime{
+  flex-direction: row;
+}
+
+.username{
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: var(--gray-100);
+}
+
+.postTime{
+  font-size: 0.75rem;
+  color: var(--gray-400);
+}
+
+.trash{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.trash:hover{
+  color: var(--red-danger);
+  cursor: pointer;
+}
+
+footer{
+  margin-top: 1rem;
+}
+
+footer button{
+  cursor: pointer;
+  font-size: 0.875rem;
+  text-align: end;
+  padding-bottom: auto;
+  margin-left: 5rem;
+
+  display: flex;
+  align-items: center;
+}
+footer span{
+  margin-left: 0.20rem;
+}
+
+.thumbsUp{
+  margin-right: 0.625rem;
+}
+
+button{
+  background-color: transparent;
+  color: var(--gray-400);
+  cursor: pointer;
+  margin-bottom: 0px;
+}
