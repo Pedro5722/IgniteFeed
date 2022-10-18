@@ -22,7 +22,8 @@ export function Post(props){
         <p>Fala galeraa 👋<br/> <br/></p>
         <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀<br/> <br/></p>
         <p>👉 <a href="#">jane.design/doctorcare</a></p>
-      <p> <a href="#">#novoprojeto</a> <a href="#">#nlw</a> <a href="#">#rocketseat</a></p>     
+      <p> <a href="#">#novoprojeto</a> <a href="#">#nlw</a> <a href="#">#rocketseat</a></p>
+     
       </div>
 
       <div className={styles.feedbackContainer}>

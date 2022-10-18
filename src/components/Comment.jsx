@@ -27,7 +27,7 @@ export function Comment(props){
       <footer>
         <button className={styles.like}>
           <ThumbsUp className={styles.thumbsUp} size={20}/> 
-          Aplaudir •<span>03</span>
+          Aplaudir<span>03</span>
         </button>
       </footer>
       
