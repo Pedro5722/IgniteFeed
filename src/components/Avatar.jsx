@@ -9,6 +9,6 @@ export function Avatar(){
 
 export function AvatarWithoutBorder(){
   return(
-      <img className={styles.avatarWithoutBorder} src="https://avatars.githubusercontent.com/u/78486049?v=4" />
+      <img className={styles.avatarWithoutBorder} src="https://avatars.githubusercontent.com/u/80972575?v=4" />
   )
 }

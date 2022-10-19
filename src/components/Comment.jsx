@@ -12,7 +12,7 @@ export function Comment(props){
         <div className={styles.commentBox}>
           <div className={styles.header}>
             <div className={styles.userAndPostTime}>
-              <span className={styles.username}>Devon Lane</span> <span>(você)</span>
+              <span className={styles.username}>José Humberto</span> <span hidden>(você)</span>
               <span className={styles.postTime}><br/>Cerca de 2h</span>
             </div>
             <div className={styles.trash}>
