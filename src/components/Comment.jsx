@@ -4,7 +4,7 @@ import { Avatar, AvatarWithoutBorder } from './Avatar'
 import styles from './Comment.module.css'
 
 
-export function Comment(props){
+export function Comment({content}){
   return(
     <div>
       <div className={styles.comment}>
@@ -19,7 +19,7 @@ export function Comment(props){
               <Trash size={24}/>
             </div>
           </div>
-          <span className={styles.commentText}>Adorei seu novo portifa Devon!</span>
+          <span className={styles.commentText}>{content}</span>
         </div>
 
       </div>
